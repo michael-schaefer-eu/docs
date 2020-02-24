@@ -56,6 +56,12 @@ services:
 
 ## Troubleshooting
 
+You have to rebuild your docker images in order the changes to take effect:
+
+```console
+$ docker-compose up --build
+```
+
 Inspect the installation with the following command. The requested Xdebug
 version should be displayed in the output.
 
